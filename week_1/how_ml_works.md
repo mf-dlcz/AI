@@ -51,3 +51,27 @@ Building ML applications is an iterative process that involves
 4. evaluating its performance through testing and iteration
 
 ### Training Data
+- The machine learning process begins with gathering and preparing data.
+
+- Poor quality data is often referred to as _garbage in, garbage out_ (GIGO).
+
+- Although data preparation may seem routine, it is arguably the most important step in ensuring
+a model works as intended.
+
+- **_Labeled Data_** has been tagged or classified while **_unlabeled data_** has not been categorized.
+
+- Many ML algorithms require labeled data, where the model is trained on examples with known outputs
+or labels.
+
+- Other algorithms can work with _**unlabeled data**_ to find patterns or structure within the data.
+
+    ### Labeled Data
+    - **_Labeled Data_** is a dataset with labels or target variables.
+    
+    - These labels show the desired output or classification.
+
+    - Labeled data sometimes is called _ground truth_ among ML practitioners.
+
+    **EXAMPLE:**  
+        - labeled data has images and their class labels.  
+        - For example, an image may be labeled as cat, dog, or car
