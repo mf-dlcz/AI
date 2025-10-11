@@ -12,7 +12,7 @@ programming it with specific rules.
 
 - These algorithms learn from complex functions (patterns) in data.
 
-- With ML, you start with a problem, identify data associated with the problem, usea an algorithm
+- With ML, you start with a problem, identify data associated with the problem, use an algorithm
 to model the problem, and then generate output.
 
 
@@ -44,3 +44,10 @@ Building ML applications is an iterative process that involves
 <br>
 
 ## Building a Machine Learning Model
+- Building a machine learning model involves
+1. data collection & preparation
+2. selecting an appropriate algorithm
+3. training the model on the prepared data
+4. evaluating its performance through testing and iteration
+
+### Training Data
