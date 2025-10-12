@@ -75,3 +75,45 @@ or labels.
     **EXAMPLE:**  
         - labeled data has images and their class labels.  
         - For example, an image may be labeled as cat, dog, or car
+
+    ### Unlabeled Data
+    - **_Unlabeled Data_** is a dataset where the instances (data points) or examples do not have
+    any associated labels or target variables.
+
+    - The data consists only of input features, without any corresponding output or classification.
+
+    **EXAMPLE**  
+        - In image classification, unlabeled data is a collection of images without any labels or 
+        annotations.
+    
+<br>
+
+***
+### Structured Data
+- Structured Data is organized and formatted in a specific way, usually in tables or databases with
+rows and columns.
+
+- This type of data works well with traditional machine learning algorithms that require clear features
+and labels.
+
+Structured Data includes the following:
+- **Tabular Data**: This includes data stored in spreadsheets, databases, or .csv files.
+    - The rows represent individual instances, and the columns represent features or attributes.
+
+- **Time-series Data**: Thi type of data consists of a sequence of values measured at different
+points in time, such as stock prices, sensors readings, or weather data.
+
+### Unstructured Data
+- Unstructured Data is information without a specific format.
+
+- It includes text, images, audio, and video.
+
+- It's extremely hard (if possible) to use traditional machine learning models to find patterns in
+unstructured data.
+
+Unstructured Data includes the following:
+- **Text Data** This type of data includes documents, articles, and social media posts.
+    - It also includes other forms of written content.
+
+- **Image Data** This data category covers digital images and photographs.
+    - It also includes individual frames from videos.
