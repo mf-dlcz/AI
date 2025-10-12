@@ -117,3 +117,6 @@ Unstructured Data includes the following:
 
 - **Image Data** This data category covers digital images and photographs.
     - It also includes individual frames from videos.
+
+## Machine Learning Process
+- 
