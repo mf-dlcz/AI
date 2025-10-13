@@ -118,5 +118,42 @@ Unstructured Data includes the following:
 - **Image Data** This data category covers digital images and photographs.
     - It also includes individual frames from videos.
 
+<br>
+
+<br>
+
 ## Machine Learning Process
-- 
+- In the machine learning process, the compiled trained data is fed into machine learning
+algorithms.
+
+- This process is traditionally divided into three broad categories - supervised learning,
+unsupervised learning, and reinforcement learning.
+
+### Supervised Learning
+- Algorithms are trained on _labeled data_.
+
+- The goal _is to learn a mapping function that can predict the output for new, unseen input
+data_.
+
+- In supervised learning (in this case, a human) provides labeled training data.
+Like a student, a supervised algorithm learns by example.
+
+- This type of algorithm uses the training data to determine the patterns and relationships
+between the inputs and outputs.
+
+Depending on the target feature being predicted, supervised learning has the two following subcategories-classification and regression.
+
+#### _Classification_
+Is a supervised learning technique used to assign labels or categories to new, unseen data instances based on a trained model.
+
+- The model is trained on a labeled dataset, where each instance is already assigned to a known class or category.
+
+- The goal of classification is to **learn patterns from the training data and use them to predict the class or category
+for new unlabeled data instances**.
+
+
+
+### Unsupervised Learning
+
+
+### Reinforcement Learning
