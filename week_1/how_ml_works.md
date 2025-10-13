@@ -151,9 +151,81 @@ Is a supervised learning technique used to assign labels or categories to new, u
 - The goal of classification is to **learn patterns from the training data and use them to predict the class or category
 for new unlabeled data instances**.
 
+> [!NOTE]  
+> This technique is useful in various applications.  
+> Use cases include fraud detection, image recognition, customer retention, and disease diagnosis. 
 
+#### _Regression_
+Is a supervised learning technique used for **predicting continuous or numerical values based on one or more input variables.**
+
+- It's used to model the relationship between a _dependent variable (the value to be predicted)_ and _one or more independent 
+variables (the features or input used for prediction)._
+
+> [!NOTE]  
+> Use cases include weather forecasting, estimating life expectancy, and population growth prediction.
 
 ### Unsupervised Learning
+Refers to algorithms that learn from unlabeled data.
+
+- The goal **is to discover hidden patterns or structures in the data without any prior information or guidance.**
+
+- In this type of learning, the machine uncovers and creates the labels itself.
+    - These models use the data they’re presented with to detect emerging properties of the entire dataset.
+    - Then, they construct patterns.
+
+- Unsupervised learning includes various techniques and algorithms.
+
+#### _Clustering_
+- These algorithms group data into different clusters.
+
+- They base the grouping on similar features or distances between the data point.
+
+#### Dimensionality Reduction
+This learning technique that reduces the number of features or dimensions in a dataset.
+
+> [!NOTE]  
+> Use cases include big data visualization, meaningful compression, structure discovery, and feature elicitation.  
 
 
 ### Reinforcement Learning
+- Continuously improves its model by mining feedback from previous iterations.
+    - An agent continuously learns through trial and error as it interacts in an environment.
+
+- Reinforcement learning is broadly useful when the reward of a desired outcome is known, but
+the path to achieving it isn't.
+    - The path requires a lot of trial and error to discover.
+
+<br>
+
+> [!NOTE]  
+> In summary, machine learning techniques encompass diverse methods, including supervised learning,
+> unsupervised learning and reinforcement learning.  
+> Supervised learning has two subcategories - _classification and regression._  
+> Unsupervised learning has two subcategories _clustering and dimensionality._  
+
+<br>
+
+## Inferencing
+After a model has been trained, it is time to begin the process of using the information that the model has 
+learned to make predictions or decisions. This is called _inferencing._
+
+### Batch Inferencing
+- Batch inferencing, also known as _offline inferencing_, is the process of generating model predictions on a 
+large batch of observations or data at once. 
+    - It is often used for tasks like data analysis, where the speed of the decision-making process is not as crucial as the accuracy of the results.
+
+- Batch inferencing is a good option when dealing with large datasets or when an immediate response to a model prediction request is not required. 
+    - In this process, a computer analyzes a substantial amount of data, such as images or text, collectively. 
+    - The result is a set of predictions or analyses for the entire batch.
+
+
+### Real-Time Inferencing
+- Real-time inferencing is the process of making decisions quickly. 
+    - It happens when new information comes in. The computer must respond right away. 
+    - This is important for applications that need immediate decisions. 
+    
+<br>
+
+> [!NOTE]  
+> Examples are chat-based AI and self-driving cars. The computer processes the incoming data.  
+> It then makes a decision almost instantly. It does not take time to analyze a large dataset.
