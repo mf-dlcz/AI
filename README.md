@@ -8,6 +8,7 @@
         - [Fundamentals of AI and ML](week_1/fundamentals.md)
         - [How Machine Learning Works](week_1/how_ml_works.md)
         - [When to Use ML](week_1/when_to_use_ML.md)
+        - [ML Pipelines](week_1/ml_pipelines.md)
     - [Week 2](week_2)
 
 ### By **María 🖤**
