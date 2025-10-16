@@ -10,5 +10,6 @@
         - [When to Use ML](week_1/when_to_use_ML.md)
         - [ML Pipelines](week_1/ml_pipelines.md)
     - [Week 2](week_2)
+    - [Week 3](week_3)
 
 ### By **María 🖤**
