@@ -51,4 +51,27 @@ exact, true probability distribution of latent variables because this task is to
 Instead, it tries to find the variational distribution (often a Gaussian approximation) that 
 is closest to the true distribution.
 
-## Neural Network Types
+## <center> Neural Network Types<center/>
+These are the different types of neural networks.
+
+Each type is designed to solve specific challenges and make the most of DL.
+***
+
+### Convolutional Neural Networks (CNNs)
+- excel at processing grid-like data, such as images or spatial information.
+
+- CNN are inspired by the human visual cortex and are particularly effective at recognizing patterns, 
+features in images, and objects.
+
+Examples of CNN applications:
+- **Image Classification** CNNs can identify objects, scenes and faces in images.
+
+- **Object Detection** CNNs partition an image into multiple segments or regions, associating each with 
+a specific class.
+
+- **Image Segmentation** CNNs locate and identify objects in an image.
+
+### Recurrent Neural Networks (RNNs)
+RNNs process information that comes in a specific order. This includes text, speech, or data generated 
+over time, like time series data.
+
