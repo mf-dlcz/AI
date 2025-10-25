@@ -8,7 +8,7 @@ learning model.
 - The pipeline takes in and prepares data.
     - It then trains the model on the processed data and evaluates how well the model
     performs.
-    - It then trains the model so that others can use it.
+    - It also deploys the trained model so that others can use it.
 
 A typical machine learning pipeline includes the following stages:
 
@@ -21,7 +21,10 @@ addressed.
 - It also determines the evaluation criteria, establishes data requirements, and identifies
 constraints and assumptions.
 
+- It provides a clear direction for data collection, preprocessing, model selection and evaluation.
+
 - A well-formulated problem ensures that the machine learning solution aligns with business goals.
+    - It also ensures that appropriate techniques and resources are used effectively.
 
 <br>
 
@@ -35,16 +38,30 @@ constraints and assumptions.
 <br>
 
 ### Data Preprocessing
+- The data processing stage involves cleaning and transforming the raw data.
 
+- This step ensures that the data is in a format suitable for machine learning algorithms.
 
+- It might include handling missing values, encoding categorical variables, scaling numerical
+features, and splitting the data into training and testing sets.
 
+- Often, data preprocessing and the next stage, feature engineering, can be done at the same
+time.
+
+<br>
 
 ***
-
-## Model Tuning
+## <center> Model Tuning <center/>
 
 ### Feature Engineering
+- Is the process of creating new features from existing ones.
 
+- This stage helps ML algorithms better represent patterns in the data.
+
+- It involves the following three techniques:
+1. **Feature Selection** This selects the most relevant features from the existing set of features.
+
+2. **Feature Extraction** This creates new features by combining or transforming existing features. 
 
 ### Model Selection and Training
 
