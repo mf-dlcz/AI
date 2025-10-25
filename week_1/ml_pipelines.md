@@ -10,6 +10,7 @@ learning model.
     performs.
     - It also deploys the trained model so that others can use it.
 
+****
 A typical machine learning pipeline includes the following stages:
 
 ### Problem Formulation
@@ -26,7 +27,6 @@ constraints and assumptions.
 - A well-formulated problem ensures that the machine learning solution aligns with business goals.
     - It also ensures that appropriate techniques and resources are used effectively.
 
-<br>
 
 ### Data Gathering and Ingestion
 - In this stage you upload and import data from various sources.
@@ -35,7 +35,6 @@ constraints and assumptions.
 
 - Data is brought into the machine learning environment for further processing.
 
-<br>
 
 ### Data Preprocessing
 - The data processing stage involves cleaning and transforming the raw data.
@@ -62,25 +61,64 @@ time.
 1. **Feature Selection** This selects the most relevant features from the existing set of features.
 
 2. **Feature Extraction** This creates new features by combining or transforming existing features. 
+    - For example, you can transform a date into separate numerical columns for month, day and year.
+
+3. **Feature Construction** This generates new features based on domain knowledge or expert insights.
+    - For example, if you have data on an individual's weight and height, you could construct a 
+    new feature.
+
 
 ### Model Selection and Training
+- In the model selection and training stage, you choose an ML algorithm that suits your problem and
+data (for example, classification or regression).
+
+- Different algorithms have different strengths and weaknesses.
+
+- Selecting the right algorithm is crucial for good performance.
+
+- You then train the selected model on the preprocessed data by using the chosen algorithm.
+
+- During training, the algorithm learns patterns and relationships from the data.
+
+- The goal is to find the best model that can make accurate predictions on new, unseen data.
 
 
 ### Model Evaluation
+- Involves assessing the trained model's performance using metrics like accuracy, precision, and
+recall.
+
+- This evaluation is done on a held out test set or through cross-validation.
 
 
 ### Content with Performance
-
-
 _**Yes**_
 
 ### Model Deployment
-
+- After the model performs well, you can deploy it to the next higher environment, whether it's a 
+production or non-production environment.
 
 ### Monitoring
+- Finally, you monitor the model's performance after deployment.
 
+- After a while, a model's performance might degrade, which is identified through continuous monitoring.
+
+- The process of monitoring, updating and upgrading a model to a better version is known as machine
+learning operations (MLOps).
+
+- MLOps also involves retraining the model as needed to adapt to changing data patterns, keeping the model
+accurate and reliable in real-world use.
 
 _**No**_
 
 ### Model Tuning
 - All of the steps within Model Tuning will repeat.
+
+<br>
+
+*****
+
+CONTENT WITH PERFORMANCE:
+|        Yes        |      No      |
+|-------------------|--------------|
+| Model Deployment  |  Model Tuning|
+|     Monitoring    |  Repeats the model tuning process  |
