@@ -72,6 +72,41 @@ a specific class.
 - **Image Segmentation** CNNs locate and identify objects in an image.
 
 ### Recurrent Neural Networks (RNNs)
-RNNs process information that comes in a specific order. This includes text, speech, or data generated 
+- RNNs process information that comes in a specific order. This includes text, speech, or data generated 
 over time, like time series data.
 
+- RNNs have a special memory component. This component allows them to remember and use previous inputs,
+like the previous word in a sentence. RNNs can then generate and predict new outputs, such as the next 
+word in a sentence. They do this by considering the context of the previous words.
+
+Examples of RNN applications:
+- **Gesture Recognition** RNNs recognize and interpret human gestures from sensor data or video feeds.
+
+- **Language Modeling** RNNs predict the next word or character in a sequence based on the previous context.
+
+- **Named Entity Recognition** NER networks identify and classify the words in a sentence to different 
+named entities, for example, people, organizations, or locations, in text data.
+
+
+### Long Short-Term Memory (LSTM) Networks:
+- LSTMs are variants of RNNs that are designed to remember information over a long period of time. This helps 
+them overcome a problem that regular RNNs can have, where they have trouble learning relationships between 
+information that is far apart.
+
+- They have built-in memory cells that can selectively remember and forget information, as needed.
+
+LSTMs often perform better, especially when dealing with long-range dependencies in the data.
+- **Language Translation**
+
+- **Sentiment Analysis** LSTMs are better equipped to handle long sentences and capture long-range 
+dependencies between words, which is crucial for accurate translation.
+
+- **Speech Recognition** LSTMs analyze text data, such as product reviews and social media posts, to 
+determine the underlying sentiment or emotion.
+
+- **Text Generation** LSTMs generate human-like text, such as creative writing, news articles, and poetry.
+
+- **Time Series Forecasting** LSTMs predict future values based on historical data, like stock prices 
+or weather patterns.
+
+### Generative Adversarial Networks (GANs)
