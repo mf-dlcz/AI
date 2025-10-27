@@ -110,3 +110,12 @@ determine the underlying sentiment or emotion.
 or weather patterns.
 
 ### Generative Adversarial Networks (GANs)
+
+
+### Autoencoders
+
+
+### Variational Autoencoders
+
+
+## Transformer
