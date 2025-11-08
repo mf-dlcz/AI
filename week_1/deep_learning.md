@@ -12,7 +12,7 @@ representations from raw data.
 
 - Hierarchical representations emerge because deep neural networks have multiple layers of neurons.
 
-- The initial layers learn low-level features, like edges or simple patterns, directly from the 
+- **The initial layers learn low-level features**, like edges or simple patterns, directly from the 
 raw input (for example, pixels in images). Subsequent higher layers then combine the low-level 
 features into more abstract, higher-level representations that capture more complex concepts.
 
@@ -23,8 +23,8 @@ features into more abstract, higher-level representations that capture more comp
 - Just like our brains have biological neurons that are connected, neural networks have many small 
 units, called nodes, connected together.
 
-- These nodes are organized into layers. The layers include an input layer, one or more hidden 
-layers, and an output layer.
+- These nodes are organized into layers. The layers include an **input layer, one or more hidden 
+layers, and an output layer**.
 
 - When you show a neural network many examples, it will figure out how to identify patterns. 
 It does this by adjusting the connections' weights between its nodes. 
@@ -39,8 +39,8 @@ learned by a neural network model.
 - Latent representations are the compressed, low-dimensional representations of the input data 
 learned by a neural network model.
 
-- Latent representations are useful for tasks like dimensionality reduction, data compression, 
-and generating new data instances.
+- **Latent representations are useful for tasks like dimensionality reduction, data compression, 
+and generating new data instances**.
 
 - In some cases, you might want to find the probability distribution of the latent representations 
 (or latent variables) that could have generated the observed data. However, calculating this 
