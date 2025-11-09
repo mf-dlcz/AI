@@ -110,6 +110,13 @@ determine the underlying sentiment or emotion.
 or weather patterns.
 
 ### Generative Adversarial Networks (GANs)
+- GANs are generative models that are designed to generate new data that resemble the training data distribution. 
+
+- GANs involve two neural networks (generator & discriminato) competing against each other in a zero-sum game framework.
+
+- **Generator** 
+
+- **Discriminator**
 
 
 ### Autoencoders
