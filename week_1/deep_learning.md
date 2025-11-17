@@ -160,6 +160,16 @@ self-attention mechanism
 
 - This mechanism lets the model weigh the importance of different elements in the same input sequence.
 
+### Transformer Architecture
+- Two crucial components in the transformer architecture are the **encoder** and the **decoder**.
+
+- **Encoder** processes and understands the input sequence.
+It takes the input, like a sentence in NLP, and creates a contextual representation of the input. 
+The encoder does this by using multiple transformer encoder layers. These layers use attention 
+mechanisms to capture the relationships between different parts of the input. The output of the encoder 
+is a set of hidden states, or encodings, which capture the meaning and structure of the input sequence.
+
+- **Decoder**
 
 
 ## Self-supervised Learning
