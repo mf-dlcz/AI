@@ -109,10 +109,11 @@ determine the underlying sentiment or emotion.
 - **Time Series Forecasting** LSTMs predict future values based on historical data, like stock prices 
 or weather patterns.
 
+
 ### Generative Adversarial Networks (GANs)
 - GANs are generative models that are designed to generate new data that resemble the training data distribution. 
 
-- GANs involve two neural networks (generator & discriminato) competing against each other in a zero-sum game framework.
+- GANs involve two neural networks (generator & discriminator) competing against each other in a zero-sum game framework.
 
 - **Generator** This network generates new synthetic data (for example, images, text, or audio) by taking random noise 
 as input and transforming it into data that resembles the training data distribution.
@@ -122,14 +123,43 @@ as input.
 
 Its goal is to distinguish between the real and generated data.
 
+**The zero-sum game framework ensures that as the generator improves in generating more realistic samples, the 
+discriminator also improves in distinguishing between real and fake samples.**
+
+**This continuous competition between the generator and discriminator drives the training process and ultimately 
+leads to a generator capable of producing high-quality, realistic data samples.**
+
 
 ### Autoencoders
+Autoencoders are a type of neural network architecture primarily used for learning efficient data representations 
+or encodings in an unsupervised manner.
+
+- **Encoder** This neural network takes the input data (for example, an image) and maps it to a lower-dimensional 
+latent space, which captures the essential features of the data.
+
+- **Decoder** This neural network takes the latent representation from the encoder and generates a reconstruction 
+of the original input data.
+
+The autoencoder is trained to minimize the reconstruction error, which is the difference between the original 
+input and the reconstructed output.
 
 
-### Variational Autoencoders
+### Variational Autoencoders (VAEs)
+VAEs are a type of generative model that combines ideas from autoencoders and variational inference.
+
+The key aspect of VAEs is that latent space is encouraged to follow a specific probability distribution.
+
+This allows for generating new data by sampling from the latent space and passing the samples through the decoder.
 
 
 ## Transformer
+- Transformers are another type of neural networks.
+
+- The Transformer architecture addressed the limitations of previous neural networks by introducing the 
+self-attention mechanism
+
+- This mechanism lets the model weigh the importance of different elements in the same input sequence.
+
 
 
 ## Self-supervised Learning
