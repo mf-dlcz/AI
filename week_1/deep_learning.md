@@ -164,29 +164,48 @@ self-attention mechanism
 - Two crucial components in the transformer architecture are the **encoder** and the **decoder**.
 
 - **Encoder**  
-Processes and understands the input sequence.
-It takes the input, like a sentence in NLP, and creates a contextual representation of the input. 
+The encoder processes and understands the input sequence.
+    - It takes the _input_, like a sentence in NLP, and creates a contextual representation of the input. 
 The encoder does this by using multiple transformer encoder layers. These layers use attention 
-mechanisms to capture the relationships between different parts of the input. The output of the encoder 
-is a set of hidden states, or encodings, which capture the meaning and structure of the input sequence.
+mechanisms to capture the relationships between different parts of the input.
+
+    - The _output_ of the encoder is a set of hidden states, or encodings, which capture the meaning and 
+structure of the input sequence.
 
 - **Decoder**  
-The decoder generates the output sequence. It takes the encodings from the encoder and 
-creates the output one token at a time. The decoder also uses attention mechanisms. 
-However, it focuses on the relationship between the current output token and the input sequence. 
-The decoder has multiple transformer decoder layers. These layers use the previous output tokens and 
-the encoder's output to predict the next token in the sequence. The interaction between the encoder 
-and decoder is key for transformer architectures. It allows the architectures to effectively create 
-and understand sequences of data for many deep learning applications.
+The decoder generates the output sequence.
+    - It takes the encodings from the _encoder_ and creates the output one token at a time.
+
+    - The decoder also uses attention mechanisms. However, it focuses on the relationship between the 
+    current output token and the input sequence. The decoder has multiple transformer decoder layers. 
+    These layers use the previous output tokens and the encoder's output to predict the next token 
+    in the sequence. The interaction between the encoder and decoder is key for transformer architectures. 
+    It allows the architectures to effectively create and understand sequences of data for many deep 
+    learning applications.
 
 ### Transformer Architectures
 - **Encoder-only Transformers**
+    - Encoder-only transformers are designed to process and understand a single input sequence, without 
+    generating any output sequence.
 
+    Example BERT model
+    
+Encoder-only transformers are particularly useful for tasks where the goal is to extract information 
+or understanding from the input, without generating any output.
 
 - **Encoder-Decoder Transformers**
+    - Encoder-decoder transformers are designed to generate an output sequence based on an input sequence.
 
+Encoder-decoder transformers are designed to generate an output sequence based on an input sequence.
 
 - **Decoder-only Transformers**
+    - Decoder-only transformers are designed to generate an output sequence by iteratively predicting 
+    the next token, without any explicit encoding of the input.
+
+    Example GPT model
+
+Decoder-only transformers are particularly useful for tasks that require generating coherent and 
+contextually relevant text, such as creative writing, dialogue systems, and code generation.
 
 
 ## Self-supervised Learning
