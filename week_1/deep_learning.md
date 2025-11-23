@@ -209,3 +209,19 @@ contextually relevant text, such as creative writing, dialogue systems, and code
 
 
 ## Self-supervised Learning
+Self-supervised learning is especially useful in areas like NLP and computer vision. Is closely related 
+to the transformer architecture.
+
+In self-supervised learning, the model learns to predict certain parts of the input data from the 
+other parts of the input data. his learning process is done without relying on external labels 
+or annotations. 
+
+One of the most successful applications of self-supervised learning with transformers is the 
+pre-training of language models, such as BERT, GPT, and their variants. These models are pre-trained 
+on vast amounts of unlabeled text data using self-supervised objectives, like masked language 
+modeling (MLM) or next sentence prediction (NSP). The learned representations can then be 
+fine-tuned on specific downstream tasks, such as text classification, question answering, 
+or summarization, with significantly less labeled data required. This leads to improved 
+performance and generalization capabilities.
+
+Self-supervised learning allows models to learn rich representations without explicit annotations.
