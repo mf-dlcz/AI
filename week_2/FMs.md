@@ -7,6 +7,7 @@ capturing broad knowledge and capabilities.
 
     - You can adapt or fine-tune these models for specific tasks or domains with 
     relatively small amounts of task-specific data and computational resources.
+    
     - These tasks include text generation, text summarization, information 
     extraction, image generation, chat based assistant interactions, and question answering. 
 
@@ -74,7 +75,7 @@ Each type of network functions differently, but they work on similar principles.
 
 FMs use learned patterns and relationships to predict the next item in a sequence.
 
-> NOTE!  
+> [!NOTE]  
 > FMs use self-supervised learning to create a language model during training. 
 > This means no one has trained the model with labeled datasets. 
 > This feature separates FMs from ML architectures, which use supervised and unsupervised learning.
