@@ -76,8 +76,8 @@ Each type of network functions differently, but they work on similar principles.
 FMs use learned patterns and relationships to predict the next item in a sequence.
 
 > [!NOTE]  
-> FMs use self-supervised learning to create a language model during training. 
-> This means no one has trained the model with labeled datasets. 
+> FMs use self-supervised learning to create a language model during training.  
+> This means no one has trained the model with labeled datasets.   
 > This feature separates FMs from ML architectures, which use supervised and unsupervised learning.
 
 
