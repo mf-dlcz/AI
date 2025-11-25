@@ -86,4 +86,35 @@ can inform and improve subsequent iterations.
 
 1. **Data Selection**  
     Unlabeled data can be used at scale for pre-training because it is much easier to obtain compared to 
-    labeled data. 
+    labeled data. FM require training on massive datasets from diverse sources.
+
+2. **Pre-Training**  
+    FMs are typically pre-trained through self-supervised learning (labeled examples are not required).
+    FMs algorithm can learn the meaning, context and relationship of the words in the datasets. After the
+    initial pre-training, the model can be further trained on additional data to do specific tasks. This
+    is known as _continuous pre-training_.
+
+    _The goal is to expand the model's knowledge base and improve its ability to understand and generalize
+    across different domains or tasks_.
+
+3. **Optimization**
+    The output of pre-trained language models can be optimized through techniques like prompt engineering,
+    Retrieval Augmented Generation (RAG), and fine-tuning.
+
+4. **Evaluation*
+    Whether FM was fine-tuned or pre-trained, it's important to evaluate performance using metrics and 
+    benchmarks.
+
+5. **Deployment**
+    When a FM meets performance criteria, it can be deployed to production environment. Deployment can involve
+    integrating the model into applications, APIs, or other software systems.
+
+6. **Feedback and Continuous Improvement**
+    After deployment, the model's performance is continuously monitored, and feedback is collected from 
+    users, domain experts, or other stakeholders. This feedback, along with model monitoring data, is 
+    used to identify areas for improvement, detect potential biases or drift, and inform future iterations 
+    of the model. The feedback loop permits continuous enhancement of the foundation model through 
+    fine-tuning, continuous pre-training, or re-training, as needed.
+
+
+## Types of FMs
