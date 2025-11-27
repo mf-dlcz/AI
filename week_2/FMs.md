@@ -128,7 +128,47 @@ data and human language.
 These large FMs can summarize text, extract information, respond to questions, create content (such as blogs or 
 product descriptions), and more.
 
-### Natural Language Processing
+#### <ins>Natural Language Processing<ins>
 Natural language processing (NLP) is an ML technology that gives machines the ability to interpret and 
 manipulate human language.
 
+NLP does this by analyzing the data, intent, or sentiment in the message and responding to human communication.
+
+- Typically, NLP implementation begins by gathering and preparing unstructured text or speech data from 
+different sources and processing the data.
+
+- It uses techniques such as tokenization, stemming, lemmatization, stop word removal, part-of-speech 
+tagging, named entity recognition, speech recognition, sentiment analysis, and so on.
+
+NOTE: Modern LLMs don't require using these intermediate steps.
+
+#### <ins>Recurrent Neural Network<ins>
+Recurrent neural networks (RNNs) use a memory mechanism to store and apply data from previous inputs.
+
+This mechanism makes RNNs effective for sequential data and tasks, such as NLP, speech recognition, or 
+machine translation.
+
+RNNs also have limitations. They are slow and complex to train, and they can’t be used for 
+training parallelization.
+
+#### <ins>Transformer<ins>
+A transformer is a deep-learning architecture that has an encoder component that converts the input 
+text into embeddings. 
+
+It also has a decoder component that consumes the embeddings to emit some output text. 
+
+Unlike RNNs, transformers are extremely parallelizable. 
+
+This means that instead of processing text words one at a time during the learning cycle, transformers 
+process input all at the same time.
+
+It takes transformers significantly less time to train, but they require more computing power to speed 
+training. The transformer architecture was the key to the development of LLMs. 
+
+These days, most LLMs only contain a decoder component.
+
+### Text-to-Image Models
+Text-to-image models take natural language input and produce a high-quality image that matches the 
+input text description.
+
+## Multimodal Models
