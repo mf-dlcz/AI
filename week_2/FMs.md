@@ -119,3 +119,16 @@ can inform and improve subsequent iterations.
 
 
 ## Types of FMs
+Most common FMs are _text-to-text models_ and _text-to-image models_.
+
+### Text-to-Text Models
+Text-to-text models are large language models (LLMs) that are pre-trained to process vast quantities of textual 
+data and human language. 
+
+These large FMs can summarize text, extract information, respond to questions, create content (such as blogs or 
+product descriptions), and more.
+
+### Natural Language Processing
+Natural language processing (NLP) is an ML technology that gives machines the ability to interpret and 
+manipulate human language.
+
