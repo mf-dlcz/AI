@@ -121,12 +121,14 @@ can inform and improve subsequent iterations.
 ## Types of FMs
 Most common FMs are _text-to-text models_ and _text-to-image models_.
 
+
 ### Text-to-Text Models
 Text-to-text models are large language models (LLMs) that are pre-trained to process vast quantities of textual 
 data and human language. 
 
 These large FMs can summarize text, extract information, respond to questions, create content (such as blogs or 
 product descriptions), and more.
+
 
 #### <ins>Natural Language Processing<ins>
 Natural language processing (NLP) is an ML technology that gives machines the ability to interpret and 
@@ -142,6 +144,7 @@ tagging, named entity recognition, speech recognition, sentiment analysis, and s
 
 NOTE: Modern LLMs don't require using these intermediate steps.
 
+
 #### <ins>Recurrent Neural Network<ins>
 Recurrent neural networks (RNNs) use a memory mechanism to store and apply data from previous inputs.
 
@@ -150,6 +153,7 @@ machine translation.
 
 RNNs also have limitations. They are slow and complex to train, and they can’t be used for 
 training parallelization.
+
 
 #### <ins>Transformer<ins>
 A transformer is a deep-learning architecture that has an encoder component that converts the input 
@@ -167,8 +171,99 @@ training. The transformer architecture was the key to the development of LLMs.
 
 These days, most LLMs only contain a decoder component.
 
+
 ### Text-to-Image Models
 Text-to-image models take natural language input and produce a high-quality image that matches the 
 input text description.
 
-## Multimodal Models
+
+## Multi-modal Models
+- Multi-modal models can process and generate multiple modes of data simultaneously.
+
+- For example, a multi-modal model could take in an image and some text as input, and 
+then generate a new image and a caption describing it as output.
+
+
+# Inference Parameters
+- Inference, in machine learning, is the process of using a trained model to make predictions or generate 
+outputs based on new, unseen input data.
+
+- It is the phase where the model is deployed and used to solve real-world problems. 
+
+- When interacting with FMs, you can often configure inference parameters to limit or influence the 
+model response.
+
+- Inference parameters fit into a range of categories, with the most common being _randomness, 
+diversity, and length._
+
+
+## Randomness and Diversity
+- Randomness and diversity are the most common categories of inference parameters.
+
+Randomness and diversity parameters influence the variation in generated responses by limiting the outputs to 
+more likely outcomes or by changing the shape of the probability distribution of outputs.
+
+
+### <ins>Temperature<ins>
+- This parameter controls the randomness or creativity of a model's output. 
+- A higher temperature makes the output more diverse and unpredictable, and a lower temperature makes it 
+    more focused and predictable. 
+- Temperature is set between 0 and 1.
+
+
+### <ins>Top K<ins>
+- Top K limits the number of words to the Top K most probable words, regardless of their percent probabilities.
+
+- For example, if Top K is set to 50, the model will only consider the 50 most likely words for the next 
+word in the sequence.
+
+
+### <ins>Top P<ins>
+- Top P is a setting that controls the diversity of the text.
+
+- This is done by limiting the number of words that the model can choose from based on their cumulative 
+probabilities.
+
+- At each step, the model ranks the potential next tokens by their predicted probabilities. 
+
+- Top P specifies a threshold probability value between 0 and 1.
+
+
+## Fine-Tuning
+- Fine-tuning an FM base model can improve performance.
+
+- Fine-tuning is a supervised learning process that involves taking a pre-trained model and adding specific, 
+smaller datasets.
+
+- Adding these narrower datasets modifies the weights of the model to better align with the task.
+
+- There are two ways to fine-tune a model: _**instruction fine-tuning and reinforcement learning from human feedback 
+(RLHF)**._
+
+
+### <ins>Instruction Fine-Tuning<ins>
+- Instruction fine-tuning is a type of supervised machine learning.
+
+- You make the FMs interact like a human in its interactions (inputs and generated outputs).
+
+- You provide a small set of inputs (usually fewer than 1,000) as examples of how to handle a specific task, such 
+as summarization.
+
+- You then give instructions to the model and compare its generated output with the correct output (this is called 
+ground truth labels in machine learning).
+
+- After going through this process many times, you give the model feedback about its performance. 
+
+- The model then updates its weights to improve its predictions in the future.
+
+- Consider that if you fine-tune the model to do only one thing in your instructions, you make the model better 
+at doing that one task. But it might lose its ability to perform other tasks as well as before. 
+
+- This is called catastrophic forgetting. 
+
+
+### <ins>Reinforcement Learning from Human Feedback<ins>
+- Reinforcement learning from human feedback (RLHF) provides human feedback data, resulting in a model that 
+is better aligned with human preferences. 
+
+- RLHF is most applied after one form of fine-tuning, such as instruction fine-tuning. 
