@@ -13,6 +13,7 @@
     - [Week 2](week_2)
         - [Generative AI](week_2/gen_ai.md)
         - [Foundation Models](week_2/FMs.md)
+        - [Large Language Models](week_2/LLMs.md)
     - [Week 3](week_3)
 
 ### By **María 🖤**
