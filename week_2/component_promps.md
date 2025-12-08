@@ -38,5 +38,3 @@ should generate based on input data and instructions.
 > your prompts to FMs and LLMs.  
 > This approach ensures that models have the necessary information, context, and guidance to 
 > accurately interpret input data and generate desired output, as intended. 
-
-
