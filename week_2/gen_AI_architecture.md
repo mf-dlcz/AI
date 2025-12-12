@@ -58,11 +58,31 @@ accurate information from unstructured sources.
 Automation involves planning and deployment through agents and functions for 
 diverse tasks.
 
+The models can be trained to recognize patterns, make decisions, and perform actions based 
+on the provided inputs.
 
+One way automation happens is through function calls or agents. An agent refers to a 
+software system or component that can perceive its environment, make decisions, and take 
+actions to achieve specific goals or complete tasks. An agent is essentially a program or set 
+of functions that interacts with a generative AI model. It receives outputs or actions from 
+the model. The agent uses the outputs to perform tasks or operations.
+
+1. user input
+2. receive request
+3. automation workflow (function calls or agents)
+4. FM
+5. automation workflow (function calls or agents)
+6. prepare response
+7. app response
 
 
 ## Productivity
 Productivity involves offering assistance in various applications, ranging from 
 coding to business intelligence.
 
-
+1. input request
+2. receive request
+3. application (productivity tool)
+4. FM
+5. prepare response
+6. generated output
