@@ -18,6 +18,7 @@
         - [Prompting](week_2/prompting.md)
         - [Components of a Prompt](week_2/component_promps.md)
         - [Gen AI Architecture](week_2/gen_AI_architecture.md)
+        - [Responsible AI](week_2/responsible_AI.md)
     - [Week 3](week_3)
 
 ### By **María 🖤**
