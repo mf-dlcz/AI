@@ -131,7 +131,26 @@ and nondeterminism.
 given context.
 
 ### <ins>REGULATORY VIOLATIONS<ins>
-Generative AI models trained on sensitive data might inadvertently generate an output that violates 
+- Generative AI models trained on sensitive data might inadvertently generate an output that violates 
 regulations, such as exposing personally identifiable information (PII).
 
 ### <ins>TOXICITY<ins>
+- Toxicity is the possibility of generating content (text, images, or other modalities) that is offensive, 
+disturbing, or inappropriate. This is a primary concern with generative AI.
+
+- Determining what qualifies as toxic content involves subjectivity, and this presents an additional 
+challenge because experts might disagree on what counts as toxic.
+
+### <ins>INTELLECTUAL PROPERTY<ins>
+- Protecting intellectual property was a problem with early large language models (LLMs). This is because 
+the LLMs had a tendency to occasionally produce text or code passages that were verbatim of parts of their 
+training data. This resulted in privacy and other concerns. But even improvements in this regard have not 
+prevented reproductions of training content that are more ambiguous and nuanced.
+
+### <ins>PLAGIARISM<ins>
+- People worry that it could write college essays, job application samples, and enable other forms of 
+cheating or copying illegally.
+
+### <ins>Non-Determinism<ins>
+- A model might generate different outputs for the same input, which can cause problems in applications 
+where reliability is key.
