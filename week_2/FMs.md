@@ -12,7 +12,7 @@ capturing broad knowledge and capabilities.
     extraction, image generation, chat based assistant interactions, and question answering. 
 
 Visualization:      
-unlabeled data   ---- PRE-TRAINED ---->  Foundational Model ---- ADAPT ------->     BROAD RANGE OF GENERAL TASKS
+unlabeled data   ---- PRE-TRAINED ---->  Foundation Model ---- ADAPT ------->     BROAD RANGE OF GENERAL TASKS
 
 ## Benefits & Limitations
 Creating an FM from scratch costs millions of dollars right now, they provide long-term benefits.
@@ -28,7 +28,7 @@ This means that you can develop comprehensive outputs through carefully curated 
 Tasks that FMs can perform include language processing, visual comprehension, code generation, 
 human-centered engagement, and speech to text.
 
-### Foundational Model Benefits
+### Foundation Model Benefits
 1. **Language Processing**  
     They have remarkable capabilities to answer natural language questions and write short scripts or articles
     in response to prompts. They can translate languages using (NLP) technologies.
@@ -50,7 +50,7 @@ human-centered engagement, and speech to text.
 
 FMs can respond coherently to prompts on subjects they have not been explicitly trained on.
 
-### Foundational Model Limitations
+### Foundation Model Limitations
 
 1. **High cost**
     Building a FM from scratch is expensive and requires enormous resources, training might take months.
