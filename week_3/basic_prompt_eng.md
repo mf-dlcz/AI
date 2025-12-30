@@ -110,3 +110,36 @@ only contain a decoder component.
 
 
 ## LLMs
+- LLMs are a subset of foundation models. 
+
+- LLMs are trained on trillions of words across many natural language tasks.
+
+### <ins>Understanding LLM Functionality<ins>
+- Most LLMs are based on a transformer model. They receive the input, encode the data, and then decode 
+the data to produce an output prediction.
+
+### <ins>Neural Network Layers<ins>
+- Transformer models are effective for natural language processing because they use neural networks to 
+understand the nuances of human language. 
+
+- There are multiple layers of neural networks in a single LLM that work together to process input 
+and generate output.
+
+### <ins>Embedding Layer<ins>
+- The embedding layer converts input text to vector representations called embeddings.
+
+- This layer can capture complex relationships between the embeddings, so the model can understand the 
+context of the input text.
+
+### <ins>Feed-Forward Layer<ins>
+- The feedforward layer consists of several connected layers that transform the embeddings into more 
+weighted versions of themselves.
+
+- Essentially, this layer continues to contextualize the language and helps the model better understand 
+the input text's intent.
+
+### <ins>Attention Mechanism<ins>
+- With the attention mechanism, the model can focus on the most relevant parts of the input text.
+
+- This mechanism, a central part of the transformer model, helps the model achieve the most accurate 
+output results.

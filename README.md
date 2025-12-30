@@ -21,6 +21,8 @@
         - [Responsible AI](week_2/responsible_AI.md)
     - [Week 3](week_3)
         - [Basic Prompt Engineering](week_3/basic_prompt_eng.md)
-        -
+        - [Prompt Engineering](week_3/prompt_engineering.md)
+        - 
+        - 
 
 ### By **María 🖤**
