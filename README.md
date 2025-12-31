@@ -20,9 +20,9 @@
         - [Gen AI Architecture](week_2/gen_AI_architecture.md)
         - [Responsible AI](week_2/responsible_AI.md)
     - [Week 3](week_3)
-        - [Basic Prompt Engineering](week_3/basic_prompt_eng.md)
-        - [Prompt Engineering](week_3/prompt_engineering.md)
-        - 
+        - [Basics of FMs](week_3/basics_fms.md)
+        - [Fundamentals of Prompt Engineering](week_3/fundamentals_prompt_engineering.md)
+        - [Basic Prompt Techniques](week_3/basic_prompt_techniques.md)
         - 
 
 ### By **María 🖤**
