@@ -23,6 +23,17 @@
         - [Basics of FMs](week_3/basics_fms.md)
         - [Fundamentals of Prompt Engineering](week_3/fundamentals_prompt_engineering.md)
         - [Basic Prompt Techniques](week_3/basic_prompt_techniques.md)
-        - 
+        - [Advanced Prompt Techniques](week_3/advanced_prompt_techniques.md)
+        - []()
+    - [Week 4](week_4)
+    - [Week 5](week_5)
+    - [Week 6](week_6)
+    - [Week 7](week_7)
+    - [Week 8](week_8)
+    - [Week 9](week_9)
+    - [Week 10](week_10)
+    - [Week 11](week_11)
+    - [Week 12](week_12)
+
 
 ### By **María 🖤**
