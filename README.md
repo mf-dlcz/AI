@@ -24,8 +24,9 @@
         - [Fundamentals of Prompt Engineering](week_3/fundamentals_prompt_engineering.md)
         - [Basic Prompt Techniques](week_3/basic_prompt_techniques.md)
         - [Advanced Prompt Techniques](week_3/advanced_prompt_techniques.md)
-        - []()
     - [Week 4](week_4)
+        - [Understanding Business Problems](week_4/understanding_business_problems.md)
+        - []
     - [Week 5](week_5)
     - [Week 6](week_6)
     - [Week 7](week_7)
