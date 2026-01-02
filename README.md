@@ -28,6 +28,7 @@
         - [Understanding Business Problems](week_4/understanding_business_problems.md)
         - []
     - [Week 5](week_5)
+        - [Amazon Bedrock](week_5/bedrock.md)
     - [Week 6](week_6)
     - [Week 7](week_7)
     - [Week 8](week_8)
