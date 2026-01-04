@@ -26,9 +26,9 @@
         - [Advanced Prompt Techniques](week_3/advanced_prompt_techniques.md)
     - [Week 4](week_4)
         - [Understanding Business Problems](week_4/understanding_business_problems.md)
-        - []
     - [Week 5](week_5)
         - [Amazon Bedrock](week_5/bedrock.md)
+        - [Inference Parameters](week_5/parameters.md)
     - [Week 6](week_6)
     - [Week 7](week_7)
     - [Week 8](week_8)
